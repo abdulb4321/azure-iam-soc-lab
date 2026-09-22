@@ -6,9 +6,14 @@ Hybrid cloud security lab: Identity and Access Management (IAM) and Microsoft Se
 - Detect simulated attacks using Microsoft Sentinel and KQL
 
 ## Status
-- In progress
+- Entra ID identity structure — 5 users, 3 groups
+- Conditional Access — MFA enforced, tested
+- RBAC — Contributor/Reader roles assigned, tested
+- Azure Arc — local VM onboarded as Arc-enabled server
+- Sentinel — enabled, Entra ID + Syslog data connectors live
 
 ## Structure
-- `identity/` — Entra ID, RBAC, and Conditional Access configuration
-- `sentinel/` — KQL detection rules
-- `screenshots/` — supporting screenshots
+- 'identity/` — Entra ID, RBAC, and Conditional Access configuration
+- 'sentinel/' — KQL detection rules
+- 'vm/' - Virtual Machine configuration
+- 'screenshots/' — supporting screenshots
